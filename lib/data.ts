@@ -56,11 +56,7 @@ export const experiencesData = [
 ] as const
 
 export const images = {
-  campwithusImg,
-  carcatalogImg,
   helpingHandsImg,
-  projectmanagementImg,
-  reactfoodImg,
 }
 
 export const projectsData = [
