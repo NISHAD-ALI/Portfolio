@@ -1,10 +1,7 @@
 import React from 'react'
 
-import campwithusImg from '@/public/images/camp-with-us.png'
-import carcatalogImg from '@/public/images/car-catalog.png'
+
 import helpingHandsImg from '@/public/images/helpingHands.png'
-import projectmanagementImg from '@/public/images/project-management.png'
-import reactfoodImg from '@/public/images/react-food.png'
 import calmCastImg from '@/public/images/calmCast.png'
 import hisAndHersImg from '@/public/images/hisandhers.png'
 import campandCrew from '@/public/images/Camp&crew.png'
