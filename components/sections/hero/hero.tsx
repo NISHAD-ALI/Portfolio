@@ -49,7 +49,7 @@ export default function Hero() {
                 Hey!
               </motion.span>
               <br />
-              <TextAnimation delay={1} baseText={`I'm Maksym`} />
+              <TextAnimation delay={1} baseText={`I'm Nishad Ali`} />
             </div>
             <motion.div
               className="flex flex-col md:flex-row w-92 items-center md:mt-12 justify-center gap-3 px-4 lg:text-lg font-medium text-sm"
@@ -72,7 +72,7 @@ export default function Hero() {
 
               <a
                 className="group w-64 sm:w-auto bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none transition cursor-pointer borderBlack dark:bg-white/10 justify-center text-black dark:text-white dark:hover:bg-white/20 hover:bg-white/50"
-                href="/CV_Azimov_Maksym.pdf"
+                href="https://drive.google.com/file/d/1olRmNLe-zb-8uB1S-z5NMd6DqTTvZkCf/view?usp=drive_link"
                 download
               >
                 <span>Download CV</span>
@@ -81,14 +81,14 @@ export default function Hero() {
               <div className="flex gap-2">
                 <a
                   className="bg-white p-2 text-black hover:text-gray-950 flex items-center justify-center gap-2 rounded-full w-[50px] h-[50px] transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60 dark:hover:bg-white/20 hover:bg-white/50"
-                  href="https://www.linkedin.com/in/maksym-azimov/"
+                  href="https://www.linkedin.com/in/nishadalichenadan/"
                   target="_blank"
                 >
                   <Linkedin />
                 </a>
                 <a
                   className="bg-white p-2 text-gray-700 flex items-center gap-2 rounded-full hover:text-gray-950 w-[50px] h-[50px] transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60 justify-center dark:hover:bg-white/20 hover:bg-white/50"
-                  href="https://github.com/bbyc4kes"
+                  href="https://github.com/NISHAD-ALI"
                   target="_blank"
                 >
                   <Image

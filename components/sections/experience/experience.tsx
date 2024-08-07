@@ -23,7 +23,7 @@ export default function Experience() {
       ref={ref}
       className="scroll-mt-12 w-full dark:bg-darkBg dark:text-white"
     >
-      <SectionHeading>My experience</SectionHeading>
+      <SectionHeading> Experience & Education</SectionHeading>
       <VerticalTimeline animate={false}>
         {ihasMounted &&
           experiencesData.map((item, index) => (

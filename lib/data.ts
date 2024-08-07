@@ -2,12 +2,12 @@ import React from 'react'
 
 import campwithusImg from '@/public/images/camp-with-us.png'
 import carcatalogImg from '@/public/images/car-catalog.png'
-import filedriveImg from '@/public/images/file-drive.png'
+import helpingHandsImg from '@/public/images/helpingHands.png'
 import projectmanagementImg from '@/public/images/project-management.png'
 import reactfoodImg from '@/public/images/react-food.png'
-import surgeImg from '@/public/images/surge.png'
-import portfolioImg from '@/public/images/portfolio.png'
-import aiLawyerImg from '@/public/images/ai-lawyer.png'
+import calmCastImg from '@/public/images/calmCast.png'
+import hisAndHersImg from '@/public/images/hisandhers.png'
+import campandCrew from '@/public/images/Camp&crew.png'
 import {
   BookIcon,
   BriefcaseBusinessIcon,
@@ -28,7 +28,7 @@ export const links = [
     id: 'projects',
   },
   {
-    name: 'Experience',
+    name: 'Education',
     id: 'experience',
   },
   {
@@ -43,114 +43,97 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: 'WhirrCrew',
-    location: 'Prague, Czechia',
-    description: `Front-end Web Develpoer position. Working on various projects with AI integration.`,
+    title: "MERN Stack Developer ",
+    location: 'Malappuram,India',
+    description: `Self-taught in MERN stack development through this intensive bootcamp, with hands-on experience gained by completing two major projects.`,
     icon: React.createElement(BriefcaseBusinessIcon),
-    date: 'Jun 2024 - Present',
+    date: 'Jun 2023 - Present',
   },
   {
-    title: 'NAU',
-    location: 'Kyiv, Ukraine',
-    description: `Bachelor's degree in Cybersecurity. Studying on the faculty of Cyber Security and Software Engineering.`,
+    title: "Bachelor's in Computer Application",
+    location: 'Malappuram,India',
+    description: `From the University of Calicut, specialized in web development and data structures; skilled in scalable solutions. `,
     icon: React.createElement(BookIcon),
-    date: 'Sep 2022 - Present',
-  },
-  {
-    title: 'Self-education',
-    location: 'Czechia',
-    description: `Styding Programming, Software Engineering and Web Development, picking up a great expertise in TypeScript, React, Next.js, Node.js, and database technologies (MongoDB/PostgreSQL/MySQL) utilizing Prisma for efficient data access.`,
-    icon: React.createElement(LaptopMinimalIcon),
-    date: 'Jul 2022 - Present',
+    date: 'Aug 2020 - 2023',
   },
 ] as const
 
 export const images = {
   campwithusImg,
   carcatalogImg,
-  filedriveImg,
+  helpingHandsImg,
   projectmanagementImg,
   reactfoodImg,
 }
 
 export const projectsData = [
   {
-    title: 'FileDrive',
+    title: 'HelpingHands',
     description:
-      'A platform for decentralized file storage with robust user management.',
+      'A Social Service Platform with event management portal and social media.',
     tags: [
       'React',
       'TypeScript',
-      'Next.js',
-      'Convex',
-      'Clerk',
-      'Shadcn',
-      'Tailwind',
-    ],
-    imageUrl: filedriveImg,
-    link: 'https://github.com/bbyc4kes/file-drive',
-  },
-  {
-    title: 'Portfolio',
-    description: `Portfolio that you're currently viewing! This project showcases my work and provides information about me.`,
-    tags: [
-      'React',
-      'TypeScript',
-      'Next.js',
-      'Framer Motion',
-      'Cloudinary',
-      'React Email',
-      'Tailwind',
-    ],
-    imageUrl: portfolioImg,
-    link: 'https://github.com/bbyc4kes/portfolio',
-  },
-  {
-    title: 'Isida',
-    description: `Isida is a platform that helps people to get legal advice from the best lawyers in the world. It's a platform that connects people with lawyers.`,
-    tags: [
-      'React',
-      'TypeScript',
-      'Next.js',
-      'Tailwind',
-      'OpenAI',
-      'SCRUM Methodology',
-      'End-to-End Development',
-    ],
-    imageUrl: aiLawyerImg,
-    link: 'mailto:azimov.worksace@gmail.com',
-  },
-  {
-    title: 'Surge',
-    description:
-      'Welcome Surge! A SaaS Website Builder - service that allows users to build and manage their own websites with integrated payment processing.',
-    tags: [
-      'React',
-      'TypeScript',
-      'Next.js',
-      'MySQL',
-      'Clerk',
-      'Stripe Connect',
-      'Shadcn',
-      'Tailwind',
-    ],
-    imageUrl: surgeImg,
-    link: 'https://github.com/bbyc4kes/surge',
-  },
-  {
-    title: 'CampWithUs',
-    description:
-      'A platform to find and book campsites, featuring a well-designed backend and seamless client-server communication.',
-    tags: [
-      'JavaScript',
-      'Express.js',
+      'Tailwind CSS',
       'MongoDB',
-      'Cloudinary',
-      'EJS',
-      'Prisma',
+       'Node.js',
+        'Express',
+        'Clean Architecture',
+       'JWT',
+       'Cloudinary',
+       'Stripe',
+       'Socket.io',
+       'Live Streaming',
+       'Geocode API',
+       'AWS',
     ],
-    imageUrl: campwithusImg,
-    link: 'https://github.com/bbyc4kes/campwithus',
+    imageUrl: helpingHandsImg,
+    link: 'https://github.com/NISHAD-ALI/helpingHands_client.git',
+  },
+  {
+    title: 'His&Hers',
+    description: `Fully-featured e-commerce platform specialising in men and women's fashion,`,
+    tags: [
+      'Jvascript',
+      'Express Js',
+      'MongoDb',
+       'Node js',
+       'RazorPay',
+       'Ajax',
+        'EJS',
+         'AWS', 
+         'EC2',
+         'Nginx'
+
+    ],
+    imageUrl: hisAndHersImg,
+    link: 'https://github.com/NISHAD-ALI/his-hers.git',
+  },
+  {
+    title: 'Camp&Crew',
+    description: `A platform where people organize nature camps and others can join in the experience.`,
+    tags: [
+      'React',
+      'TypeScript',
+      'Next.js',
+      'Tailwind',
+       'MongoDb',
+       'Express Js',
+
+    ],
+    imageUrl: campandCrew,
+    link: '',
+  },
+  {
+    title: 'CalmCast',
+    description:
+      'Futuristic Weather prediction App ',
+    tags: [
+      'React',
+      'Tailwind',
+    ],
+    imageUrl: calmCastImg,
+    link: 'https://github.com/NISHAD-ALI/CalmCast.git',
   },
 ] as const
 
@@ -163,21 +146,23 @@ export const skillsData = [
   ['Express', '/svgs/express-original.svg'],
   ['Tailwind', '/svgs/tailwind-css.svg'],
   ['Framer', '/svgs/framer.svg'],
-  ['Shadcn', '/svgs/shadcnui.svg'],
-  ['Headless', '/svgs/brand-headlessui.svg'],
   ['Redux', '/svgs/redux-original.svg'],
-  ['Prisma', '/svgs/file-type-light-prisma.svg'],
   ['MongoDB', '/svgs/mongodb-original.svg'],
   ['PostgreSQL', '/svgs/postgresql.svg'],
   ['MySQL', '/svgs/MySQL.svg'],
   ['Cloudinary', '/svgs/cloudinary.svg'],
   ['Docker', '/svgs/Docker.svg'],
-  ['Clerk', '/svgs/clerk.svg'],
   ['Axios', '/svgs/axios.svg'],
   ['HTML', '/svgs/file-type-html.svg'],
   ['CSS', '/svgs/file-type-css.svg'],
   ['Sass', '/svgs/Sass.svg'],
   ['Git', '/svgs/git.svg'],
   ['GitHub', '/svgs/github.svg'],
-  ['', '/svgs/etc.svg'],
+  ['Figma', '/svgs/figma.svg'],
+  ['Bootsrap', '/svgs/bootstrap.svg'],
+  ['Firebase', '/svgs/firebase-svgrepo-com.svg'],
+  ['Graph QL', '/svgs/graphql-ar21.svg'],
+  ['AWS', '/svgs/icons8-aws.svg'],
+  ['Stripe', '/svgs/stripe.svg'],
+  ['Socket.i.o', '/svgs/socketio-icon.svg'],
 ] as const

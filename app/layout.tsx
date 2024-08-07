@@ -10,9 +10,9 @@ import { ModeToggle } from '@/theme/mode-toggler'
 import ActiveSectionContextProvider from '@/stores/active-section'
 
 export const metadata: Metadata = {
-  title: 'Maksym Azimov | Portfolio',
+  title: 'Nishad Ali',
   description:
-    'Check out modern and stylish porfolio of an experienced Web Developer Maksym Azimov! Built using TypeScript, Next.js 14, Framaer Motion and Tailwind CSS.',
+    'Hi! Welcome to my Portfolio, Built using TypeScript, Next.js 14, Framaer Motion and Tailwind CSS.',
 }
 
 const fontMontserrat = FontMontserrat({
